@@ -1,5 +1,5 @@
-source "https://rubygems.org"
-
+source "http://rubygems.org"
+#source "http://production.s3.rubygems.org"
 gem "rails", "5.2.4.4"
 
 gem "acts-as-taggable-on", "~> 6.5.0"
