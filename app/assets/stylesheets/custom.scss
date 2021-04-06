@@ -3,3 +3,98 @@
 // * English: https://github.com/consul/consul/blob/master/CUSTOMIZE_EN.md#css
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 //
+
+
+.top-links{
+	background: #b9bf15;
+}
+
+.top-bar{
+	height: 160px;
+}
+
+.top-bar .menu > li a{
+	color: #b9bf15;
+}
+
+.top-bar .menu > li.is-active > a{
+        color: #b9bf15;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after{
+	border-color: #b9bf15 transparent transparent;
+}
+
+#navigation_bar{
+	border-top: 1px #b9bf15 solid;
+}
+
+.subnavigation a.is-active{
+	color: #b9bf15;
+}
+
+
+.submenu .is-active{  
+        color: #b9bf15;
+}
+
+.featured-proposals{
+	background: #eef5de;
+}
+
+.button{
+	background: #b9bf15;
+}
+
+.jumbo{
+        background: #eef5de;
+}
+
+.home-page .background-header{
+	background: #eef5de;
+}
+
+.callout.primary {
+	background-color: #eef5de;
+	border-color: #b9bf15;
+	color: black;
+}
+
+.top-bar .menu > li .button{
+	background: #b9bf15;
+	color: black;
+}
+
+.participation-not-allowed{
+	background: #eef5de;
+}
+
+.featured-proposals .supports .participation-not-allowed{
+	background: #b9bf15;
+	color: black;
+}
+
+.featured-proposals .supports .button-support{
+	background: #b9bf15;
+        color: black;
+}
+
+.proposal .supports .button-support{
+        background: #b9bf15;
+        color: black;
+}
+
+
+.proposal-show .supports .button-support{
+        background: #b9bf15;
+        color: black;
+
+}
+
+.poll .icon-poll-answer.not-logged-in::after{
+	color: #b9bf15;
+}
+
+.poll .icon-poll-answer.not-logged-in, .poll-question .icon-poll-answer.not-logged-in {
+    border-right: 60px solid #eef5de;
+}
