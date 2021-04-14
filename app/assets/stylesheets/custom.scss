@@ -16,15 +16,15 @@
 }
 
 .top-bar .menu > li a{
-	color: #b9bf15;
+	color: #6b6b6d;
 }
 
 .top-bar .menu > li.is-active > a{
-    color: #b9bf15;
+    color: #6b6b6d;
 }
 
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after{
-	border-color: #b9bf15 transparent transparent;
+	border-color: #6b6b6d transparent transparent;
 }
 
 #navigation_bar{
@@ -68,7 +68,7 @@
 
 .top-bar .menu > li .button{
 	background: #b9bf15;
-	color: black;
+	color: #6b6b6d;
 }
 
 .participation-not-allowed{
@@ -82,25 +82,28 @@
 
 .featured-proposals .supports .button-support{
 	background: #b9bf15;
-    color: black;
+        color: black;
 }
 
 .proposal .supports .button-support{
-    background: #b9bf15;
-    color: black;
+       background: #b9bf15;
+       color: black;
 }
 
 
 .proposal-show .supports .button-support{
-    background: #b9bf15;
-    color: black;
+      background: #b9bf15;
+      color: black;
 
 }
 
 .poll .icon-poll-answer.not-logged-in::after{
-	color: #b9bf15;
+      color: #b9bf15;
 }
 
 .poll .icon-poll-answer.not-logged-in, .poll-question .icon-poll-answer.not-logged-in {
-    border-right: 60px solid #eef5de;
+      border-right: 60px solid #eef5de;
+}
+.notifications.unread-notifications::after{
+      color: #6b6b6d;
 }
