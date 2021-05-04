@@ -111,3 +111,13 @@
 .menu.simple li.is-active{
 	color: #b9bf15;
 }
+/* Hiermit kÃ¶nnen Safari >=1.1, Opera >=9.5, IE9 was anfangen*/
+::selection {
+    background: #007065;
+    color: #fff;
+}
+/* und hiermit der Firefox >=1 */
+::-moz-selection {
+    background: #007065;
+    color: #fff;
+}
