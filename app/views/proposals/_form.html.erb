@@ -80,6 +80,7 @@
       <br>
       <%= f.text_field :tag_list, value: @proposal.tag_list.to_s,
                         label: false,
+			readonly: true,
                         placeholder: t("proposals.form.tags_placeholder"),
                         class: "js-tag-list tag-autocomplete",
                         aria: { describedby: "tag-list-help-text" },
