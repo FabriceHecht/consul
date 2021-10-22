@@ -138,25 +138,34 @@ blockquote{
 }
 
 .small-12 medium-3 column supports-container{
-	border-left: none;
 }
 
 .proposal .supports{
-	display: none;
+display: block;
 }
 
 fixed-mobile-content{
-	display: none;
+display: block;
+
 }
 
 .counter{
-	display: none;
 }
 
 .proposal-show .supports{
-	display: none;
+display: block;	
 }
 
 aside h2{
-	display: none;
+}
+
+
+label[for=user_name]
+{
+visibility: hidden;
+}
+
+label[for=user_name]:after
+{
+content: 'test';
 }
